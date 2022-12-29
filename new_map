@@ -1,0 +1,11 @@
+def watch(x):
+	return len(x)
+	
+qw="atgc"
+qs="uacg"
+s="".maketrans(qw,qs)
+print(s)
+in_str=input("enter some random HIT: ")
+print(in_str.translate(s).upper())
+#print(in_str.count())
+print(watch(in_str))
